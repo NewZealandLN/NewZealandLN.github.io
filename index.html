@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title></title>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
 
 <style>
 
@@ -18,7 +13,8 @@ body {
 
 .box {
 	border-radius: 3px;
-	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
+	background: #196e85; margin: auto; padding: 12px;
+    text-align: center;
 }
 
 .lightbox {
@@ -28,7 +24,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(10, 10, 10, 0.8);
+	background:#196e85;
 	text-align: center;
 	margin: auto;
 
@@ -62,14 +58,32 @@ div.vertical {
    text-align: center;
 }
 
+p{
+    color: whitesmoke;
+    font: "Myriad Pro";
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    color: #f0b319;
+    text-align: center;
+    position: relative;
+}
+
 </style>
+</head>
 
 <body>
+
+
 
 	<div id="loginbox" class="lightbox" >
 		<div class="horizontal">
 			<div class="vertical">
 				<div class="box">
+                    <p>New Zealand Leadership Network Login</p>
 					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
 					<button id="loginbutton" type="button">Enter</button>
 					<p id="wrongPassword" style="display: none">wrong password</p>
