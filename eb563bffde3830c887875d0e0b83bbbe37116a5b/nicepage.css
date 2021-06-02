@@ -33730,8 +33730,13 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: none;
 }
 
+.u-header .u-sidenav-1 {
+  padding: 0;
+}
+
 .u-header .u-nav-2 {
   font-size: 1.25rem;
+  font-family: MYRIADPRO-REGULAR;
 }
 
 .u-header .u-image-1 {
