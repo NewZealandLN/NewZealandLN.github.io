@@ -1,0 +1,22 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 145px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 400;
+  font-family: MYRIADPRO-REGULAR;
+  margin: 20px 0;
+}.u-section-2 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-2 .u-text-1 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 60px;
+}@font-face {
+  font-family: 'MYRIADPRO-REGULAR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/MYRIADPRO-REGULAR.OTF);
+}

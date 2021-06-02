@@ -1,0 +1,79 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 538px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 37px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 0;
+}
+
+.u-section-1 .u-line-1 {
+  margin-top: 2px;
+  margin-bottom: 0;
+  height: 3px;
+  transform-origin: left center 0px;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 250px;
+  height: 250px;
+  margin: 20px auto 0 20px;
+}
+
+.u-section-1 .u-text-4 {
+  font-weight: 400;
+  font-family: MYRIADPRO-REGULAR;
+  margin: -168px 897px 0 63px;
+}
+
+.u-section-1 .u-text-5 {
+  font-weight: 400;
+  font-family: MYRIADPRO-REGULAR;
+  margin: -25px 12px 60px 316px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-4 {
+    margin-right: 760px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-5 {
+    margin-right: 0;
+    margin-left: 128px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-4 {
+    margin-right: 540px;
+  }
+
+  .u-section-1 .u-text-5 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-4 {
+    margin-right: 360px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-4 {
+    margin-right: 160px;
+  }
+}@font-face {
+  font-family: 'MYRIADPRO-REGULAR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/MYRIADPRO-REGULAR.OTF);
+}
